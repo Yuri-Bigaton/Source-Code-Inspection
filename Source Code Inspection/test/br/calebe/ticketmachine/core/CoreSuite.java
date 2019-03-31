@@ -14,7 +14,7 @@ import org.junit.runners.Suite;
 
 /**
  *
- * @author aline
+ * @author Aline e Yuri
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({br.calebe.ticketmachine.core.TicketMachineTest.class, br.calebe.ticketmachine.core.TrocoTest.class, br.calebe.ticketmachine.core.PapelMoedaTest.class})
