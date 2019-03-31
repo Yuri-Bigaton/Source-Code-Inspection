@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author aline
+ * @author Aline e Yuri
  */
 public class TicketMachineTest {
     
@@ -44,9 +44,11 @@ public class TicketMachineTest {
     @Test
     public void testInserir() throws Exception {
         System.out.println("inserir");
-        int quantia = 5;
-        TicketMachine instance = null;
-        instance.inserir(quantia);
+        //int quantia = 5;
+        TicketMachine t = new TicketMachine (5);
+        assertTrue(t.inserir (5));
+        //TicketMachine instance = null;
+        //instance.inserir(quantia);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }

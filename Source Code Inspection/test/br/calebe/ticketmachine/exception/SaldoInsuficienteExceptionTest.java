@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author aline
+ * @author Aline e Yuri
  */
 public class SaldoInsuficienteExceptionTest {
     

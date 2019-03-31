@@ -14,7 +14,7 @@ import org.junit.runners.Suite;
 
 /**
  *
- * @author aline
+ * @author Aline e Yuri
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({br.calebe.ticketmachine.exception.PapelMoedaInvalidaExceptionTest.class, br.calebe.ticketmachine.exception.SaldoInsuficienteExceptionTest.class})
